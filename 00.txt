@@ -1,0 +1,12 @@
+🎉  Successfully created project sandbox
+
+  To get started:
+
+	cd blog_nuxt
+	yarn dev
+
+  To build & start for production:
+
+	cd blog_nuxt
+	yarn build
+	yarn start
