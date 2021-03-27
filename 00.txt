@@ -9,6 +9,7 @@
 
 	cd blog_nuxt
 	yarn build
+	yarn generate --> build dist folder
 	yarn start
 
 
