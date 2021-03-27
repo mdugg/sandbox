@@ -35,5 +35,8 @@ $ yarn generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 
+==== debugging push and deploy errors
 git branch --set-upstream-to=origin/main main
 git pull origin main --allow-unrelated-histories
+git submodule status
+git ls-files --stage | grep 160000 <-- removes the submodule 'sandbox' folder
